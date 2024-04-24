@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:sqlserver://localhost:1433;encrypt=true;trustServerCertificate=true;databaseName=companydb
+    username: Ana
+    password: 123
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+  jpa:
+      show-sql: true
+
+# http://localhost:8080/swagger-ui/index.html
